@@ -16,9 +16,9 @@ return {
 	outputDir = "",
 
 	-- Information - will be inserted into the docset
-	docsetIdentifier = "",
-	docsetName = "",
-	docsetPlatformFamily = "",
+	docsetIdentifier = "", -- generally reverse dns, uniquely identifies a docset
+	docsetName = "", -- displayed name
+	docsetPlatformFamily = "", -- used for search prefixes
 	
 	-- [optional] should be a path to a 32x32 pixel PNG icon, or a 16x16 icon. If nil we ignore.
 	docsetIcon = nil
