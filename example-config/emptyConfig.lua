@@ -12,13 +12,13 @@ return {
 	sqlite3 = "sqlite3",
 
 	-- Paths - must be absolute
-	inputDir = "/home/thothonegan/Hackerguild/Source/Endless@master/Endless/Resources/Endless.tek/Scripts/",
-	outputDir = "/home/thothonegan/out/",
+	inputDir = "",
+	outputDir = "",
 
 	-- Information - will be inserted into the docset
-	docsetIdentifier = "com.hackerguild.endless.lua",
-	docsetName = "Endless-Lua",
-	docsetPlatformFamily = "endless-lua",
+	docsetIdentifier = "",
+	docsetName = "",
+	docsetPlatformFamily = "",
 	
 	-- [optional] should be a path to a 32x32 pixel PNG icon, or a 16x16 icon. If nil we ignore.
 	docsetIcon = nil
